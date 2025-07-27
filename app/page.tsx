@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import About from "./components/sections/About";
 import Dokku from "./components/sections/Dokku";
@@ -16,6 +17,7 @@ export default function Home() {
         <Filmi />
         <About />
       </main>
+      <Footer />
     </>
   );
 }
