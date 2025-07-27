@@ -4,7 +4,7 @@ export default function Header() {
             <div className="text-4xl">Katapult</div>
             <ul className="flex items-center gap-8 text-2xl">
                 <li className="hover:scale-110 transition duration-300 ease-in-out"><a href="#dokku">DoKKu</a></li>
-                <li className="hover:scale-110 transition duration-300 ease-in-out"><a href="#delavnice">Mladinske delavnice</a></li>
+                <li className="hover:scale-110 transition duration-300 ease-in-out"><a href="#mfd">Mladinske delavnice</a></li>
                 <li className="hover:scale-110 transition duration-300 ease-in-out"><a href="#filmi">Filmi</a></li>
                 <li className="hover:scale-110 transition duration-300 ease-in-out"><a href="#o-nas">O nas</a></li>
             </ul>

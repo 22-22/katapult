@@ -14,7 +14,7 @@ export default function Dokku() {
                 <div className="w-full md:w-1/2">
                     <div className="h-[620px] w-full overflow-hidden">
                         <Image
-                            src="/dokku-2019.jpg"
+                            src="/dokku-2019.JPG"
                             width={800}
                             height={620}
                             alt="a girl filming a boy in front of a factory"
