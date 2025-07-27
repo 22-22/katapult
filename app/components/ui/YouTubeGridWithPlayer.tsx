@@ -8,8 +8,8 @@ export default function YouTubeGridWithIcon() {
     const [activeVideo, setActiveVideo] = useState("");
 
     return (
-        <div className="max-w-4xl mx-auto py-12">
-            <h3 className="text-2xl text-center md:text-3xl font-semibold text-orange-700">DoKKu arhiv</h3>
+        <div className="max-w-4xl mx-auto py-4">
+            <h3 className="text-2xl text-center md:text-3xl font-semibold text-orange-700 tracking-wide">DoKKu arhiv</h3>
             <p className="text-center mt-4 mb-8">Filmi, ki so nastali na delavnici, so prikazani na različnih filmskih festivalih, javnih projekcijah, dogodkih in na internetu.</p>
             {activeVideo ? (
                 <>
@@ -38,7 +38,7 @@ export default function YouTubeGridWithIcon() {
                             <div
                                 key={id}
                                 onClick={() => setActiveVideo(id)}
-                                className="cursor-pointer group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
+                                className="cursor-pointer group relative rounded-lg overflow-hidden shadow-lg hover:shadow-lg transition-shadow"
                             >
                                 <div className="aspect-video overflow-hidden">
                                     <img

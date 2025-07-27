@@ -6,7 +6,7 @@ export default function Mfd() {
         <section id="mfd">
             <Parallax />
 
-            <div className="px-6 md:px-24 py-12 flex flex-col md:flex-row gap-10 items-start bg-gray-50 text-gray-800">
+            <div className="px-6 md:px-24 py-12 flex flex-col md:flex-row gap-10 items-start  text-gray-800">
                 {/* Text Content */}
                 <article className="flex-1 text-base leading-relaxed text-justify space-y-4">
                     <h3 className="text-2xl md:text-3xl font-semibold text-orange-700">

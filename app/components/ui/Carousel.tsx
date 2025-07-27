@@ -31,9 +31,9 @@ export default function Carousel() {
     };
 
     return (
-        <div className="relative w-1/3  ">
+        <div className="relative w-full md:w-1/3">
             {/* Image slider */}
-            <div className="absolute">
+            <div>
                 <Image
                     width={400}
                     height={550}

@@ -1,6 +1,7 @@
 export default function Hero() {
     return (
-        <div
+        <section
+            id="katapult"
             className="relative h-screen bg-cover bg-center text-white"
             style={{ backgroundImage: "url('/DoKKu25_Day01-2.jpg')" }}
         >
@@ -12,6 +13,6 @@ export default function Hero() {
                     <p className="mt-4 text-lg md:text-xl">Več kot 20 let izkušenj na področju videoprodukcije in neformalnega izobraževanja.</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
