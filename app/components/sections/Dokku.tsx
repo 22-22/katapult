@@ -29,7 +29,7 @@ export default function Dokku() {
                 <div className="w-full md:w-1/2 flex items-center relative z-10 md:-ml-20 px-6 md:px-0 h-[620px]">
                     <article className="bg-white rounded-xl shadow-lg p-2 md:p-8 text-base leading-relaxed max-w-[500px] mx-auto text-justify">
                         <h3 className="text-xl md:text-2xl font-semibold mb-4 text-orange-700 text-center md:text-left">
-                            DoKKu: Film kot Glas Mladih
+                            DoKKu: film kot glas mladih
                         </h3>
                         <p>
                             Društvo Katapult že več kot 20 let sodeluje z DZMP Luksuz produkcijo
